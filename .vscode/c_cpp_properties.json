@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/winrt",
+                "C:/Program Files (x86)/Arduino/libraries",
+                "C:/Users/Tomasz/Documents/Arduino/libraries",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries",
+                "${workspaceRoot}",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/winrt",
+                    "C:/Users/Tomasz/Documents/Arduino/libraries",
+                    "C:/Program Files (x86)/Arduino/libraries",
+                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 2
+}
