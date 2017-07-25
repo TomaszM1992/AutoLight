@@ -6,7 +6,7 @@ const int sensorPin = A0;
 const int ledPin = 12;  //pin od diody
 const int switchPin = 11; //pin od tactswitcha
 const int lightPin = 10;  //pin od przełączania światła
-const long readingPeriod = 60; // 60 sekund
+const long readingPeriod = 10; // 10 sekund
 
 boolean recording = false;
 int readingIndex = 0;
@@ -54,7 +54,7 @@ void takeReading()
 
 void checkLight(byte value)
 {
-  if (value < 135)
+  if (value < 200)
   {
     digitalWrite(lightPin, HIGH);
   }else
